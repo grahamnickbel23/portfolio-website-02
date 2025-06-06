@@ -1,0 +1,369 @@
+@media (max-width: 600px) {
+    /* Mobile CSS for screens up to 600px width */
+
+    body {
+        background-color: black;
+        color: white;
+        scroll-behavior: smooth;
+        font-size: 14px;
+        /* smaller base font */
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    /* Header */
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        color: white;
+        z-index: 10;
+        text-align: center;
+        border: none;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 5px 10px;
+        align-items: center;
+    }
+
+    .logo {
+        width: 120px;
+        margin-top: 5px;
+        margin-left: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .logo img {
+        position: relative;
+        top: 5px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .navigation-panel {
+        margin-right: 5px;
+    }
+
+    .navigation-panel ul {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navigation-panel ul li {
+        margin-right: 15px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /* Hover color-box */
+    .color-box {
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        backdrop-filter: blur(30px);
+        border-radius: 25px;
+    }
+
+    .color-box:hover {
+        background-color: burlywood;
+    }
+
+    /* style for the landing page */
+    section {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+        z-index: 2;
+    }
+
+    .landing-page {
+        background-image: url(images/Landing-Page-AI-Image.png);
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        scroll-behavior: smooth;
+        overflow: hidden;
+    }
+
+    /* style for the landing page text */
+    .landing-page-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 95%;
+        height: 100vh;
+    }
+
+    .landing-page-heading {
+        font-size: 100px;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .landing-page-sub-heading {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .get-started-btn {
+        width: 150px;
+        height: 40px;
+        background-color: rgb(54, 54, 133);
+        font-size: 16px;
+        border-radius: 20px;
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .get-started-btn:hover {
+        background-color: wheat;
+        color: black;
+    }
+
+    .get-started-btn p {
+        bottom: 7 px;
+    }
+
+    /* Premium panel */
+    .premium-pannel-page {
+        height: auto;
+        margin-top: 60px;
+        background-image: url(images/primium-pannel-page-AI-Image.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 10px;
+    }
+
+    .premium-pannel-page-content {
+        top: 0;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .premium-pannel-content {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        backdrop-filter: blur(5px);
+        border-radius: 25px;
+        border: 2px solid #fff;
+        margin-bottom: 20px;
+    }
+
+    .premium-pannel-content:hover {
+        width: 95%;
+        height: auto;
+        border-color: transparent;
+        background-color: burlywood;
+        color: black;
+    }
+
+    .premium-pannel-content h1 {
+        font-size: 24px;
+    }
+
+    .pannel-info {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .pannel-text {
+        padding: 10px;
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    /* More panel */
+    .more-pannel {
+        height: auto;
+        margin-top: 60px;
+        background-image: url(images/more-pannel-AI-image.png);
+        background-size: cover;
+        padding: 10px;
+    }
+
+    .more-premium-pannel-content {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 25px;
+        border: 2px solid #fff;
+        margin-bottom: 20px;
+    }
+
+    .more-premium-pannel-content:hover {
+        width: 95%;
+        height: auto;
+        background-color: burlywood;
+        border-color: transparent;
+        color: black;
+    }
+
+    .more-premium-pannel-content h1 {
+        font-size: 24px;
+    }
+
+    /* Contact us page */
+    .contac-us-page {
+        height: auto;
+        margin-top: 60px;
+        background-image: url(images/contac-us-page-AI-image.png);
+        background-size: cover;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contac-us-page-thank-you {
+        max-width: 95%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contac-us-page-thank-you h1 {
+        top: 75px;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .contac-us-page-main-content {
+        max-width: 65%;
+        background-color: burlywood;
+        color: #fff;
+        border-radius: 25px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .contac-us-page-main-content:hover {
+        background-color: transparent;
+        color: rgb(44, 32, 10);
+        backdrop-filter: blur(20px);
+    }
+
+    .contac-us-page-main-content h2 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .contac-us-page-main-content p {
+        margin: 0 10px 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .contac-us-special-class {
+        font-style: italic;
+    }
+
+    /* Hamburger menu styles */
+    /* Hide hamburger by default */
+    .hamburger {
+        position: relative;
+        top: -25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 30px;
+        height: 25px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        margin-right: 15px;
+        z-index: 20;
+        align-self: center;
+    }
+
+    .hamburger span {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+    }
+
+    /* Navigation panel hidden by default on mobile */
+    .navigation-panel {
+        position: fixed;
+        top: 60px;
+        /* below header */
+        right: 0;
+        backdrop-filter: blur(20px);
+        border-radius: 35px;
+        width: 200px;
+        height: calc(100vh - 140px);
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        flex-direction: column;
+        padding-top: 20px;
+        z-index: 15;
+    }
+
+    /* Make nav links vertical */
+    .navigation-panel ul {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .navigation-panel ul li {
+        margin: 15px 0;
+        margin-right: 0;
+        font-size: 18px;
+    }
+
+    /* Show menu when active */
+    .navigation-panel.active {
+        transform: translateX(0);
+    }
+}

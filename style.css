@@ -1,0 +1,367 @@
+body {
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+    /* extra addition */
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* style for the header */
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+    z-index: 10;
+    text-align: center;
+    border: solid 1px transparent;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.logo img {
+    position: relative;
+    top:-10px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navigation-panel {
+    margin-right: 5px;
+}
+
+.navigation-panel ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.navigation-panel ul li {
+    position: relative;
+    margin-right: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* style for hovering on switch */
+.color-box {
+    position: relative;
+    width: 165px;
+    height: 35px;
+    text-align: center;
+    backdrop-filter: blur(50px);
+    border: none;
+    border-radius: 35px;
+}
+
+.color-box:hover {
+    background-color: burlywood;
+    border: transparent
+}
+
+.color-text {
+    position: relative;
+    top: 5px;
+}
+
+/* style for the landing page */
+section {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+.landing-page {
+    position: relative;
+    top: 25px;
+    margin-top: 75px;
+    text-align: center;
+    background-image: url(images/Landing-Page-AI-Image.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+/* style for the landing page text */
+.landing-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* this will center the button and all children horizontally */
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    /* optional: to center in full viewport */
+}
+
+.landing-page-heading {
+    position: relative;
+    top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffff;
+    padding: 0;
+    margin: 0;
+}
+
+.landing-page-sub-heading {
+    position: relative;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.get-started-btn {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(54, 54, 133);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.get-started-btn:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.get-started-btn p {
+    position: relative;
+    bottom: 7px;
+}
+
+/* style for the premium pannel page */
+.premium-pannel-page {
+    position: relative;
+    top: 25px;
+    margin-top: 75px;
+    text-align: center;
+    background-image: url(images/primium-pannel-page-AI-Image.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0
+}
+
+.premium-pannel-page-content {
+    position: relative;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    /* this will center the button and all children horizontally */
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    /* optional: to center in full viewport */
+}
+
+.premium-pannel-content {
+    position: relative;
+    top: 30px;
+    width: 300px;
+    height: 450px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    color: whitesmoke;
+    border: solid 2px #ffff;
+    border-radius: 35px;
+}
+
+.premium-pannel-content:hover {
+    background-color: burlywood;
+    width: 350px;
+    height: 500px;
+    border: solid 2px transparent;
+    color: black;
+}
+
+.premium-pannel-content h1 {
+    position: relative;
+    top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.pannel-info {
+    display: flex;
+    flex-direction: column;
+    /* stack vertically */
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pannel-text {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 400px;
+}
+/* more pannel page */
+.more-pannel {
+    position: relative;
+    top: 25px;
+    margin-top: 75px;
+    text-align: center;
+    background-image: url(images/more-pannel-AI-image.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0
+}
+
+.more-premium-pannel-content {
+    position: relative;
+    top: 30px;
+    width: 300px;
+    height: 450px;
+    background-color: transparent;
+    color: whitesmoke;
+    border: solid 2px #ffff;
+    border-radius: 35px;
+}
+
+.more-premium-pannel-content:hover {
+    width: 350px;
+    height: 500px;
+    background-color: burlywood;
+    border: solid 2px transparent;
+    color: black;
+}
+
+.more-premium-pannel-content h1 {
+    position: relative;
+    top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* contac us info */
+.contac-us-page {
+    position: relative;
+    top: 25px;
+    margin-top: 75px;
+    text-align: center;
+    background-image: url(images/contac-us-page-AI-image.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.contac-us-page-thank-you {
+    position: sticky;
+    top: 25px;
+    max-width: 80%;
+    align-items: center;
+    ;
+}
+
+.contac-us-page-thank-you h1 {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.contac-us-page-main-content {
+    position: relative;
+    margin: 0 15px;
+    background-color: burlywood;
+    color: #ffff;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contac-us-page-main-content:hover {
+    background-color: transparent;
+    color: rgb(44, 32, 10);
+    backdrop-filter: blur(25px);
+}
+
+.contac-us-page-main-content h2 {
+    position: relative;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contac-us-page-main-content p {
+    position: relative;
+    margin-inline: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contac-us-page-main-content p:not(:last-child) {
+    margin-bottom: -5px;
+}
+
+.contac-us-special-class {
+    font-style: italic;
+}
