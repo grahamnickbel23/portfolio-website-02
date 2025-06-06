@@ -1,4 +1,4 @@
-#🌱 A Journey Back to the Web — Just Pure Passion
+# **🌱 A Journey Back to the Web — Just Pure Passion**
 
 It all started in October 2022. I was just a student preparing for NEET, but instead of sticking to the syllabus, I found myself learning Python from NCERT books—for no reason at all. Just curiosity. Just vibes.
 
