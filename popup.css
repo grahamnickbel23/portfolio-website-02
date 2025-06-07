@@ -14,10 +14,15 @@ a {
 ul {
     list-style: none;
 }
+.spacer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
 /* style for the sections */
 section {
     position: relative;
-    height: 100vh;
+    height: auto;
     background-position: center center;
     background-size: cover;
     padding: 0;
@@ -28,7 +33,8 @@ section {
 .Download-now-btn-container-expand{
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content:right;
+    padding-right: 25px;
 }
 .Download-now-btn-expand{
     position: relative;
@@ -87,9 +93,60 @@ section {
     justify-content: space-between;
     padding-inline: 15px;
 }
+.basic-pannel-expand-download-image{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+}
 .basic-pannel-expand-main-content-img{
     max-width: 450px;
     max-height:450px;
     object-fit: contain;
     border-radius: 35px;
+}
+
+.basic-pannel-expand-main-content-feature {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+  margin-right: 5%;
+  color: #ffffff;
+  gap: 20px;
+  border: 2px solid #fff;
+}
+
+/* Style for rows with two columns */
+.feature-row {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+/* Style for rows with single column */
+.feature-row.single {
+  justify-content: flex-start;
+}
+
+/* Style each feature box */
+.feature-box {
+  width: 75%;
+}
+
+/* Style strong text headers */
+.feature-box strong {
+  font-size: 30px;
+  color: #ffcc00;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Link Styling */
+.feature-box a {
+  color: #00c3ff;
+  text-decoration: underline;
 }
