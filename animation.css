@@ -76,3 +76,17 @@
 .get-started-btn{
     animation: slideFromBottom 1s ease-out forwards;
 }
+
+/*Applying Animation to the pannel page */
+.basic-pannel-expand-main-content-feature{
+    animation: slideInFromLeft 1s ease-out forwards;
+}
+.Download-now-btn-container-expand{
+    animation: dropBounce 1.3s ease-in forwards;
+}
+.basic-pannel-expand-main-content-img{
+    animation: slideFromRight 1s ease-out forwards;
+}
+.basic-pannel-expand-content h1{
+    animation: slideFromRight 1s ease-out forwards;
+}
