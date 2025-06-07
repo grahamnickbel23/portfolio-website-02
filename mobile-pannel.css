@@ -1,5 +1,5 @@
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .basic-pannel-expand {
         padding: 40px 15px;
     }
