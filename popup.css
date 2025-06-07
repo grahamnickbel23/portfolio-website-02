@@ -1,0 +1,95 @@
+/* Genaral Style section*/
+body {
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+    /* extra addition */
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/* style for the sections */
+section {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+.Download-now-btn-container-expand{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.Download-now-btn-expand{
+    position: relative;
+    width: 250px;
+    height: 75px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    max-width: 400px;
+
+    background-color: burlywood;
+    color: #ffff;
+    border-radius: 35px;
+}
+.Download-now-btn-expand:hover{
+    background-color: #ffff;
+    color: #000;
+}
+/*specific style section*/
+/* style for basic pannel*/
+.basic-pannel-expand{
+    position: relative;
+    margin-top: 75px;
+    text-align: center;
+    background-image: url();
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #fff;
+}
+.basic-pannel-expand-content{
+    position:relative;
+    top: 25px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+.basic-pannel-expand-content h1{
+    position:relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45;
+    font-weight: 400;
+    color: #ffff;
+}
+.basic-pannel-expand-main-content{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 15px;
+}
+.basic-pannel-expand-main-content-img{
+    max-width: 450px;
+    max-height:450px;
+    object-fit: contain;
+    border-radius: 35px;
+}
