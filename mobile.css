@@ -1,5 +1,20 @@
 @media (max-width: 600px) {
+
     /* Mobile CSS for screens up to 600px width */
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .premium-pannel-page,
+    .more-pannel {
+        overflow-x: hidden;
+    }
 
     body {
         background-color: black;
