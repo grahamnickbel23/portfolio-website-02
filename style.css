@@ -118,6 +118,7 @@ section {
     text-align: center;
     scroll-behavior: smooth;
     overflow: hidden;
+    will-change: background, transform;
 }
 
 /* style for the landing page text */
