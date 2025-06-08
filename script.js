@@ -16,7 +16,7 @@ window.addEventListener("pageshow", function (event) {
 });
 
 function replayAnimations() {
-    document.querySelectorAll(".header, .landing-page-heading, .landing-page-sub-heading, .get-started-btn")
+    document.querySelectorAll(".premium-pannel-content , .more-premium-pannel-content")
         .forEach((el) => {
             el.style.animation = "none";
             el.offsetHeight; // trigger reflow
