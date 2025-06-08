@@ -1,6 +1,10 @@
 @media (max-width: 600px) {
 
     /* Mobile CSS for screens up to 600px width */
+      html,
+    body {
+        overflow-x: hidden;
+    }
     body {
         background-color: black;
         color: white;
