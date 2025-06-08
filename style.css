@@ -1,15 +1,4 @@
 /*genaral CSS settings*/
-* {
-    box-sizing: border-box;
-}
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-.premium-pannel-page,
-.more-pannel {
-    overflow-x: hidden;
-}
 body {
     background-color: black;
     color: white;
